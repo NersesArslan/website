@@ -24,3 +24,20 @@ p {
 .profile-picture {
   max-width: 350px;
 }
+
+nav,
+ul {
+  width: 100vw;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  gap: 25px;
+  margin-right: 100px;
+}
+/* 
+.navbar {
+  display: flex;
+} */
