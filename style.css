@@ -1,7 +1,12 @@
 img {
   max-width: 350px;
 }
-
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
 p {
   max-width: 450px;
 }
@@ -29,7 +34,9 @@ nav,
 ul {
   width: 100vw;
 }
-
+nav {
+  display: flex;
+}
 ul {
   list-style-type: none;
   display: flex;
@@ -37,7 +44,3 @@ ul {
   gap: 25px;
   margin-right: 100px;
 }
-/* 
-.navbar {
-  display: flex;
-} */
