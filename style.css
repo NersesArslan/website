@@ -44,3 +44,9 @@ ul {
   gap: 25px;
   margin-right: 100px;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: hotpink;
+}
