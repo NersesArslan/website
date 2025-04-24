@@ -17,19 +17,6 @@ p {
   justify-content: center;
 }
 
-.third {
-  margin: -150px 0px 0px 20px;
-}
-
-.wrap {
-  width: 200px;
-  overflow: hidden;
-}
-
-.profile-picture {
-  max-width: 350px;
-}
-
 nav,
 ul {
   width: 100vw;
@@ -49,4 +36,12 @@ a {
 }
 a:hover {
   color: hotpink;
+}
+
+.profile-picture {
+  object-fit: cover; /* Ensures the image fills the container */
+  width: 400px; /* Explicitly set width */
+  height: 300px; /* Explicitly set height */
+  object-position: 160px -180px; /* Adjusts the cropping */
+  margin-left: -150px;
 }
